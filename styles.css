@@ -1,32 +1,73 @@
-html{
-    background-color:#333333;
+/* removes all default margins, padding, borders and outlines */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{ 
+  margin: 0; padding: 0; border: 0; outline: 0; 
 }
 
-/* Add a black background color to the top navigation */
+html{
+    
+    margin: -8px;
+}
+
+header{
+  background-color: (69,75,78);
+  height: 20px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
 .topnav {
+    background-color: rgb(69,75,78);
     overflow: hidden;
+    display: flex;
+    justify-content: center;
   }
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:left;
+  color: #d7e4d1;
+  text-align: center;
+  padding: 20px 15px 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
 
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    color:aquamarine;
-    border-bottom:3px solid aquamarine;
-  }
+/* Add a color to the active/current link */
+.topnav a.active {
+  color:#73cca8;
+  border-bottom:3px solid #73cca8;
+}
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color:aquamarine;
-    border-bottom:3px solid aquamarine;
-    color: black;
-  }
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#73cca8;
+  border-bottom:3px solid #73cca8;
+  color: black;
+}
 
+body{
+  text-align: center;
+  background-color:rgb(27,31,41);
+}
+
+h1{
+  color: #d7e4d1;
+}
+
+p{
+  color: #d7e4d1;
+}
+
+.pages {
+  margin-bottom: 1000px;
+}
+
+.sticky{
+  position:fixed;
+  top: 0;
+  height: 56px;
+  width: 100%;
+  margin: -8px 0px 0px 8px;
+  padding: 0;
+}
