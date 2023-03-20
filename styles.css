@@ -16,6 +16,28 @@ header{
   margin-bottom: 100px;
 }
 
+footer{
+  margin-bottom: 50px;
+}
+
+body{
+  text-align: center;
+  background-color:rgb(27,31,41);
+}
+
+h1{
+  color: #d7e4d1;
+  font-size: 75px;
+}
+
+p{
+  color: #d7e4d1;
+  font-size: 25px;
+}
+footer p{
+  font-size: 20px;
+}
+
 .topnav {
     background-color: rgb(69,75,78);
     overflow: hidden;
@@ -46,20 +68,8 @@ header{
   color: black;
 }
 
-body{
-  text-align: center;
-  background-color:rgb(27,31,41);
-}
-
-h1{
-  color: #d7e4d1;
-}
-
-p{
-  color: #d7e4d1;
-}
-
 .pages {
+  padding-top: 50px;
   margin-bottom: 1000px;
 }
 
