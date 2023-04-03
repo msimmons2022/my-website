@@ -6,7 +6,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 html{
     
-    margin: -8px;
+    margin: 0px;
 }
 
 header{
@@ -42,6 +42,7 @@ footer p{
     background-color: rgb(69,75,78);
     overflow: hidden;
     display: flex;
+    width: 100%;
     justify-content: center;
   }
   
@@ -70,7 +71,7 @@ footer p{
 
 .pages {
   padding-top: 50px;
-  margin-bottom: 1000px;
+  margin-bottom: 500px;
 }
 
 .sticky{
@@ -78,6 +79,6 @@ footer p{
   top: 0;
   height: 56px;
   width: 100%;
-  margin: -8px 0px 0px 8px;
+  margin: 0px;
   padding: 0;
 }
